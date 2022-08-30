@@ -6,28 +6,47 @@
 
 
 
+// @font-face {
+//   font-family: "roman-normal";
+//   src: url("../fonts/timesnewroman.ttf") format("truetype");
+// }
+// @font-face {
+//     font-family: "roman-bold";
+//     src: url("../fonts/roman/timesnewromanbold.ttf") format("truetype");
+// }
+
+// @font-face {
+//     font-family: "roman-normal-italic";
+//     src: url("../fonts/timesnewromanitalic.ttf") format("truetype");
+//   }
+//   @font-face {
+//       font-family: "roman-bold-italic";
+//       src: url("../fonts/roman/timesnewromanbolditalic.ttf") format("truetype");
+//   }
+
+
 @font-face {
-  font-family: "roman-normal";
-  src: url("../fonts/timesnewroman.ttf") format("truetype");
+  font-family: "delreplica-regular";
+  src: url("../fonts/DellReplicaTT-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: "roman-bold";
-    src: url("../fonts/roman/timesnewromanbold.ttf") format("truetype");
+    font-family: "delreplica-bold";
+    src: url("../fonts/DellReplicaTT-Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "roman-normal-italic";
-    src: url("../fonts/timesnewromanitalic.ttf") format("truetype");
+    font-family: "delreplica-regular-italic";
+    src: url("../fonts/DellReplicaTT-Italic.ttf") format("truetype");
   }
   @font-face {
-      font-family: "roman-bold-italic";
-      src: url("../fonts/roman/timesnewromanbolditalic.ttf") format("truetype");
+      font-family: "delreplica-bold-italic";
+      src: url("../fonts/DellReplicaTT-BoldItalic.ttf") format("truetype");
   }
 
-  $font: 'roman-normal';
-  $font-bold: 'roman-bold';
-  $font-bold-italic: 'roman-bold-italic';
-  $font-italic: 'roman-normal-italic';
+  $font: 'delreplica-regular';
+  $font-bold: 'delreplica-bold';
+  $font-bold-italic: 'delreplica-bold-italic';
+  $font-italic: 'delreplica-regular-italic';
 
 
 
