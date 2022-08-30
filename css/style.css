@@ -415,5 +415,10 @@ body {
     font-size: 16px;
   }
 }
+@media (max-width: 480px) {
+  .bottom-seciton .text-center br {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
